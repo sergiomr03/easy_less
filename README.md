@@ -8,11 +8,21 @@ Para cualquier consulta, hacer uso de la página "https://lesscss.org/".
 
 Las siguientes reglas deberán aplicarse en el archivo "styles.less". Nunca tocar "styles.css".
 
-1 - Crear una variable y asignarle el valor de "1rem".
+1 - Crear una variable llamada "sizeP" y asignarle el valor de "1rem".
+
+
 2 - A la etiqueta "p" asignarle el tamaño de letra que hemos usado en la variable creada anteriormente.
+
+
 3 - A la etiqueta "H1" asignarle el valor de la variable multiplicada por 6. 
+
+
 4 - A la etiqueta "H2" asignarle el valor de la variable multiplicada por 5. 
+
+
 5 - A la etiqueta "H3" asignarle el valor de la variable multiplicada por 4. 
+
+
 6 - Crear una clase llamada "border" y asignarle los siguientes atributos:
     border-style:solid;
     border: @sizeP / 2;
