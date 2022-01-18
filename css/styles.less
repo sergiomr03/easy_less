@@ -24,3 +24,41 @@ body {
 
 
 // REGLAS PARA EL EJERCICIO AQUÍ DEBAJO
+
+@sizeP: 1rem;
+
+p{
+    width: @sizeP;
+}
+
+h1{
+    width: @sizeP * 6;
+}
+
+h2{
+    width: @sizeP * 5;
+}
+
+h3{
+    width: @sizeP * 4;
+}
+.#border{
+    border-style: solid;
+    border: @sizeP / 2;
+    border-color: black;
+    border-radius: @sizeP * 6;
+}
+
+.margins {
+    margin: 3%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#div1 {
+    background-color: yellowgreen;
+}
